@@ -1,0 +1,25 @@
+.ti{
+    font-size: 30px;
+    font-weight: bolder;
+    color:#463535;
+}
+.inp{
+    border-radius: 10% / 50%;
+}
+.sent{
+    background-color:#ACD6FF;
+    border-radius:10%/50% ;
+}
+.res{
+    background-color:#FF5151;
+    border-radius: 10% / 50%;
+}
+.lis{
+    background-color: #FBCCD1;
+    max-width: 80%;
+}
+li{
+    font-weight: lighter;
+    font-size: 20px;
+    list-style: none;
+}

@@ -1,0 +1,22 @@
+.carousel .carousel-item {
+    height: 300px;
+  }
+  
+.carousel .carousel-item img {
+  min-height: 300px;
+  max-height: 400px;
+  object-fit: cover;
+}
+.font{
+  font-size: 20px;  
+  color: #463535;
+  font-family: "微軟正黑體";  
+}
+.inner {  
+  display: flex;          /* ★ */
+  justify-content:center;
+  align-items: center;    /* ★ */
+}
+
+
+

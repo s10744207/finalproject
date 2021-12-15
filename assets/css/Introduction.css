@@ -1,0 +1,57 @@
+.Attractions_Name{
+   font-family:"Microsoft JhengHei";
+   font-weight: bolder;
+}
+.Attractions_Img{
+    width:250px;
+    height:250px;
+}
+.ratings {
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    color: #b1b1b1;
+    overflow: hidden;
+}
+.full-stars {
+    position: absolute;
+    left: 0;
+    top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #fde16d;
+}
+.empty-stars:before, .full-stars:before {
+    content:"\2605\2605\2605\2605\2605";
+    font-size: 40px;
+}
+.empty-stars:before {
+    -webkit-text-stroke: 1px #848484;
+}
+.full-stars:before {
+    -webkit-text-stroke: 1px orange;
+}
+.introduction_area{
+    border-style:solid;
+    max-width:75%;
+    background-color: #F8EAD8;
+    border-radius: 10%;
+}
+.introduction_icon{
+    width:20px;
+    height: 20px;
+}
+.lis{
+    text-decoration:underline;
+}
+.lib-2 {
+    color: #fff;
+    background-color: #b22222;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px 30px;
+    transition: all 200ms ease-in-out;
+}
+hr{
+    border: 0.5px;
+}
